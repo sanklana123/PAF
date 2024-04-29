@@ -45,7 +45,7 @@ function Student() {
     <div>
       <h1>Workout Details</h1>
       <button className="btn btn-primary mt-4" onClick={handleNavigateToAddStudent}>
-        Add Workout Details
+        Add Fitness Workout Details
       </button>
 
       {error && <div className="alert alert-danger">{error}</div>}
